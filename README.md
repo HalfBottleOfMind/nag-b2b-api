@@ -6,7 +6,7 @@ Installing: pip install nag_b2b_api_halfbottleofmind
 
 Using example:
 ```
-from nag_b2b_api import Database
+from nag_b2b_api.Database import Database
 # import Database class
 
 db = Database(database="PATH-TO-YOUR-SQLITE-DATABASE" api_key="YOUR-API-KEY")
